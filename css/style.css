@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
 }
 .fa-angle-left {
-  padding-left: 30px;
+  padding-left: 25px;
   padding-right: 20px;
   width: 20px;
   display: inline-block;
@@ -24,7 +24,7 @@ body {
   z-index: 2;
 }
 .fa-search {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-top: 6px;
   width: 20px;
   display: inline-block;
@@ -36,12 +36,10 @@ body {
 .fa-walking {
   padding-right: 10px;
 }
-.fa-long-arrow-alt-right {
-  float: center;
+.fa-arrow-right {
+  text-align: center;
   display: inline-block;
-  width: 80px;
   padding-left: 40px;
-  padding-right: 40px;
 }
 h1 {
   font-size: 1.4em;
@@ -167,7 +165,7 @@ hr {
   opacity: .5;
   width: 320px;
   color: white;
-  padding: 0;
+  padding-bottom: 10px;
   border-top: 1px solid black;
 }
 .tableContent {
@@ -183,7 +181,7 @@ hr {
   background-repeat: no-repeat;
   opacity: .5;
   margin: 0 auto;
-  width: 260px;
+  width: 220px;
   height: 32px;
   border-radius: 5px;
   border: 1px solid black;
@@ -196,6 +194,7 @@ direction.h1 {
 title {
   font-size: 1.4em;
   font-weight: bold;
+  padding-left, right: 30 px;
   width: 100%;
   color: white;
   text-align: center;
@@ -213,12 +212,31 @@ title {
   .tableHeader {
     width: 375px;
   }
-  .fa-long-arrow-alt-right {
+  .fa-arrow-right {
     float: center;
     display: inline-block;
     width: 100px;
-    padding-left: 40px;
+    padding-left: 60px;
     padding-right: 40px;
+  }
+  .fa-angle-left {
+    padding-left: 40px;
+    padding-right: 20px;
+    width: 20px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    z-index: 2;
+  }
+  .fa-search {
+    padding-left: 40px;
+    padding-top: 6px;
+    width: 20px;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    z-index: 1;
+    position: relative;
   }
   body {
     width: 375px;
@@ -240,12 +258,39 @@ title {
     .tableHeader {
       width: 414px;
     }
-    .fa-long-arrow-alt-right {
-      float: center;
+    .fa-angle-left {
+      padding-left: 45px;
+      padding-right: 20px;
+      width: 20px;
+      display: inline-block;
+      float: left;
+      position: relative;
+      z-index: 2;
+    }
+    .fa-search {
+      padding-left: 55px;
+      padding-top: 6px;
+      width: 20px;
+      display: inline-block;
+      float: left;
+      vertical-align: middle;
+      z-index: 1;
+      position: relative;
+    }
+    .fa-arrow-right {
+      text-align: center;
       display: inline-block;
       width: 100px;
-      padding-left: 40px;
+      padding-left: 80px;
       padding-right: 40px;
+    }
+    h1.title {
+      font-size: 2em;
+      font-weight: bold;
+      padding-left, right: 30 px;
+      width: 100%;
+      color: white;
+      text-align: center;
     }
     body {
       width: 414px;
